@@ -52,27 +52,31 @@ h1, p {
     background-color: #5c6972;
     height: 400px;
     width: 400px;
+    padding: 0.5%;
     z-index: 2;
 }
 
 .empty-square1 {
     background-color: #050834;
-    height: 30%;
-    width: 14%;
+    height: 43%;
+    width: 20%;
     position: absolute;
     z-index: 1;
-    margin-top: 5%;
-    margin-right: 55%;
+    margin-top: 10%;
+    margin-right: 46%;
 }
 
 .empty-square2 {
-    background-color: #7cb8f2;
+    color: #7cb8f2;
     height: 45%;
     width: 20%;
     position: absolute;
     z-index: 1;
     margin-top: 12%;
     margin-right: 11%;
+    line-break: anywhere;
+    line-height: 40%;
+    font-size: xx-large;    
 }
 
 .title1 {
@@ -131,7 +135,8 @@ h1, p {
 .pic-square2 {
     background-color: #5c6972;
     height: 400px;
-    width: 300px;
+    width: 310px;
+    padding: 2.5%;
     margin-top: 6%;
 }
 
@@ -142,6 +147,7 @@ h1, p {
     position: absolute;
     margin-top: 130%;
     margin-left: 65%;
+    padding: 2%;
 }
 
 .text-square {
@@ -192,9 +198,10 @@ h1, p {
     background-color: #3a63a8;
     width: 450px;
     height: 450px;
+    padding: 1.5%;
 }
 
-.title-musica {
+.title-follow-you {
     width: auto;
     display: flex;
     flex-direction: row;
@@ -202,7 +209,7 @@ h1, p {
     margin-top: 5%;
 }
 
-.subtitle-musica {
+.subtitle-follow-you {
     font-size: small;
     text-align: right;
     color: #3c3744;
@@ -227,10 +234,22 @@ h1, p {
     justify-content: center;
 }
 
+.subtitle-next-to-me {
+    font-size: small;
+    text-align: right;
+    color: #d5d5d5;
+    margin-top: -5%;
+}
+
+.p-next-to-me {
+    line-height: 5%;
+}
+
 .pic-square5 {
     background-color: #7cb8f2;
-    width: 350px;
+    width: 100%;
     height: 300px;
+    margin-top: 5%;
 }
 
 /*-----------------------------------------------*/
@@ -247,14 +266,30 @@ h1, p {
 .text-fifth-part {
     display: flex;
     flex-direction: column;
-    background-color: yellowgreen;
     justify-content: space-between;
-    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-break: normal;
+}
+
+.fucking-line {
+    margin-top: -10%;
+}
+
+.subtitle-te-vivo {
+    font-size: small;
+    text-align: right;
+    color: #3c3744;
+    margin-top: -5%;
     margin-bottom: 5%;
 }
 
+.p1-fifth-part {
+    line-height: 50%;
+}
+
 .p2-fifth-part {
-    width: 50%;
+    width: 80%;
     margin-left: 80%;
 }
 
@@ -262,6 +297,7 @@ h1, p {
     background-color: #050834;
     height: 500px;
     width: 500px;
+    padding: 0.8%;
 }
 
 /*-----------------------------------------------*/
@@ -275,27 +311,8 @@ h1, p {
     margin-top: 5%;
 }
 
-.img1-sixth-part,
-.img2-sixth-part,
-.img3-sixth-part,
-.img4-sixth-part {
+.img-sixth-part {
     width: 25%;
-}
-
-.img1-sixth-part {
-    background-color: yellowgreen;
-}
-
-.img2-sixth-part {
-    background-color: yellow;
-}
-
-.img3-sixth-part {
-    background-color: violet;
-}
-
-.img4-sixth-part {
-    background-color: turquoise;
 }
 
 /*-----------------------------------------------*/
@@ -304,36 +321,56 @@ h1, p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin: 5%;
 }
 
 .text-grey-square {
     background-color: #050834;
-    color: #d5d5d5;
+    color: #fbfff1;
     width: 30%;
-    height: auto;
-    padding-left: 2%;
+    height: 450px;
+    padding: 2%;
+    padding-bottom: 0;
 }
 
-.collumn-texto-assinatura {
+.p-grey-square {
+    line-height: 55%;
+}
+
+.column-textofinal-assinatura {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textofinal {
+    justify-content: space-around;
+    width: 600px;
+    line-break: normal;
 }
 
 .assinatura {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.collumn-assinatura {
+.column-assinatura {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
+}
+
+.nome-assinatura {
+    font-size: smaller;
+    color: #3c3744;
 }
 
 .img-assinatura {
-    background-color: yellowgreen;
+    background-color: #050834;
     width: 30%;
-    height: 100px;
+    height: 120px;
+    padding: 0.5%;
+    margin-left: 20%;
 }
